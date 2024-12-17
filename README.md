@@ -2,7 +2,6 @@
 Personal Config
 
 ## Install
-First install [HyDE](https://github.com/prasanthrangan/hyprdots)
 Install an Aur helper such as yay
 
 ```
@@ -11,6 +10,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
+Then install [HyDE](https://github.com/prasanthrangan/hyprdots)
 
 Install my stuff
 ```
