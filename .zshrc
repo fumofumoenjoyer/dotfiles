@@ -28,9 +28,3 @@ clear
 fastfetch
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/fumofumo/.dart-cli-completion/zsh-config.zsh ]] && . /home/fumofumo/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
