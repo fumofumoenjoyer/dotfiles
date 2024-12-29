@@ -19,7 +19,7 @@ Then install [HyDE](https://github.com/prasanthrangan/hyprdots)
 Install my stuff
 ```
 
-yay -S vscodium-bin vscodium-bin-marketplace zen-browser-avx2-bin mission-center oh-my-posh zsh-autosuggestions zsh-syntax-highlighting bitwarden
+yay -S vscodium-bin vscodium-bin-marketplace zen-browser-avx2-bin mission-center oh-my-posh zsh-autosuggestions zsh-syntax-highlighting bitwarden nerd-fonts xorg
 
 ```
 
