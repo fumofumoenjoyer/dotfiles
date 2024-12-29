@@ -15,7 +15,7 @@ compinit
 alias emacs="emacsclient -c -a 'emacs' &!"
 alias polkit="/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &!"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-
+alias mkhistfile='touch ~/.histfile'
 #paths
 PATH="$HOME/.config/emacs/bin:$PATH"
 PATH="/home/fumofumo/flutter/bin:$PATH"
