@@ -2,7 +2,7 @@
 Personal Config
 
 ## Install
-Optional: [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
+Optional(Not for Artix): [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
 
 Install an Aur helper such as yay
 
