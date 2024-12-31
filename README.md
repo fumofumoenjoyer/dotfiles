@@ -2,8 +2,6 @@
 Personal Config
 
 ## Install
-Optional(Not for Artix): [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
-
 Install an Aur helper such as yay
 
 ```
@@ -12,8 +10,11 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
-Then install [HyDE](https://github.com/prasanthrangan/hyprdots)
 
+
+Optional (Not for Artix): [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
+
+Optional (For Hyprland config): [Install HyDE](https://github.com/prasanthrangan/hyprdots)
 
 
 Install my stuff
