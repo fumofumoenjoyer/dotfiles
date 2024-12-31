@@ -24,3 +24,9 @@ yay -Syyu qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh
 ```
 
 clone the repo and replace configs
+
+## Screenshots (Qtile)
+![image](https://github.com/user-attachments/assets/627eab4a-4427-4a0f-9061-f3e6ef655f0a)
+
+![image](https://github.com/user-attachments/assets/6ac7cabe-492e-4a26-96bc-34a7c33b0010)
+
