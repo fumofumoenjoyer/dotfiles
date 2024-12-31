@@ -22,8 +22,8 @@ fileExplorer = "thunar"
 appLauncher = "rofi -show drun"
 windowsList = "rofi -show window"
 powerMenu = "bash .config/qtile/powermenu.sh"
-screenshot = "flameshot gui --clipboard --path Imágenes/Capturas"
-screenshotFull = "flameshot full --clipboard --path Imágenes/Capturas"
+screenshot = "flameshot gui --clipboard --path Pictures/Screenshots"
+screenshotFull = "flameshot full --clipboard --path Pictures/Screenshots"
 
 keys = [
     # Switch between windows
@@ -63,7 +63,7 @@ keys = [
     Key([mod, "control"], "q", lazy.spawn(powerMenu), desc="Open power menu"),
 
     # Media controls
-    Key([mod], "print", lazy.spawn(screenshot), desc="Take a screenshot"),
+    Key([mod], "p", lazy.spawn(screenshot), desc="Take a screenshot"),
     #Key([mod], "print", lazy.spawn(screenshotFull), desc="Take a screenshot of the full desktop"),
     Key([], "XF86AudioRaiseVolume", lazy.spawn('pactl set-sink-volume @DEFAULT_SINK@ +2%'), desc="Up the volume"),
     Key([], "XF86AudioLowerVolume", lazy.spawn('pactl set-sink-volume @DEFAULT_SINK@ -2%'), desc="Down the volume"),
