@@ -22,8 +22,8 @@ fileExplorer = "thunar"
 appLauncher = "rofi -show drun"
 windowsList = "rofi -show window"
 powerMenu = "bash .config/qtile/powermenu.sh"
-screenshot = "flameshot gui --clipboard --path Pictures/Screenshots"
-screenshotFull = "flameshot full --clipboard --path Pictures/Screenshots"
+screenshot = "flameshot gui --clipboard --path Pictures/Screenshots/"
+screenshotFull = "flameshot full --clipboard --path Pictures/Screenshots/"
 
 keys = [
     # Switch between windows
