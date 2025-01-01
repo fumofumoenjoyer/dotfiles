@@ -16,6 +16,9 @@ alias emacs="emacsclient -c -a 'emacs' &!"
 alias polkit="/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &!"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias mkhistfile='touch ~/.histfile'
+alias comfyui='conda activate comfy && python /home/fumo/ComfyUI/main.py &!'
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+
 #paths
 PATH="$HOME/.config/emacs/bin:$PATH"
 PATH="/home/fumofumo/flutter/bin:$PATH"
@@ -28,3 +31,4 @@ clear
 fastfetch
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
