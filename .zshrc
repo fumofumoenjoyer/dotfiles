@@ -16,15 +16,19 @@ alias emacs="emacsclient -c -a 'emacs' &!"
 alias polkit="/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &!"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias mkhistfile='touch ~/.histfile'
-alias comfyui='conda activate comfy && python /home/fumo/ComfyUI/main.py &!'
+alias comfyui='conda activate comfy && python $HOME/ComfyUI/main.py'
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
 
 #paths
 PATH="$HOME/.config/emacs/bin:$PATH"
 PATH="/home/fumofumo/flutter/bin:$PATH"
 PATH="$PATH:$HOME/.cargo/bin"
+
 #prompt
 eval "$(oh-my-posh init zsh --config '~/prompt.json')"
+
+#export
+export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
 
 
 clear
