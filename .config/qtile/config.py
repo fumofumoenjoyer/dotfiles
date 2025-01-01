@@ -18,7 +18,7 @@ os.system("bash ~/.config/qtile/autostart.sh")
 mod = "mod4"
 terminal = "kitty"
 webBrowser = "zen-browser"
-fileExplorer = "thunar"
+fileExplorer = "dbus-launch thunar"
 appLauncher = "rofi -show drun"
 windowsList = "rofi -show window"
 powerMenu = "bash .config/qtile/powermenu.sh"

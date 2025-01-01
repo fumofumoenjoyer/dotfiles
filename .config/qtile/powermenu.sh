@@ -1,11 +1,11 @@
-options=" 󰒲  Suspender\n 󰜉  Reiniciar\n 󰐥  Apagar"
-selected=$(echo -e "$options" | rofi -dmenu -p "" -l 3 -theme "$HOME"/.config/rofi/configpowermenu.rasi)
+options=" 󰜉  Reboot\n 󰐥  Shutdown"
+selected=$(echo -e "$options" | rofi -dmenu -p "" -l 2 -theme "$HOME"/.config/rofi/configpowermenu.rasi)
 
 case "$selected" in
-    " 󰐥  Apagar")
+    " 󰐥  Shutdown")
         shutdown now
         ;;
-    " 󰜉  Reiniciar")
+    " 󰜉  Reboot")
         reboot
         ;;
     " 󰒲  Suspender")
