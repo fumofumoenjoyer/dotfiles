@@ -61,7 +61,7 @@ keys = [
     Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating on the focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.spawn(powerMenu), desc="Open power menu"),
-
+    Key([mod, "shift"], "w", lazy.spawn("waypaper"), desc="Open Wallpaper Selector"),
     # Media controls
     Key([mod], "p", lazy.spawn(screenshot), desc="Take a screenshot"),
     #Key([mod], "print", lazy.spawn(screenshotFull), desc="Take a screenshot of the full desktop"),
