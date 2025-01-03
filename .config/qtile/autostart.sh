@@ -9,3 +9,4 @@ steam-native -silent &
 picom &
 ollama serve &
 waypaper --restore &
+flameshot &
