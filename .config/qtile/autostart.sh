@@ -10,3 +10,4 @@ picom &
 ollama serve &
 waypaper --restore &
 flameshot &
+emacs --daemon &
