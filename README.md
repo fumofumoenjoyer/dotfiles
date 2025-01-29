@@ -19,7 +19,7 @@ Optional (For Hyprland config): [Install HyDE](https://github.com/Hyde-project/h
 
 Install my stuff
 ```
-yay -Syyu qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-shares-plugin thunar-media-tags-plugin thunar-volman tumbler gvfs ark 7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git zen-browser-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-fork-git resources xorg-xwayland xorg dunst xwaylandvideobridge vscodium-bin-marketplace vscodium-bin bitwarden ttf-ubuntu-mono-nerd ttf-ubuntu-nerd ttf-hack-nerd
+yay -Syyu qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-shares-plugin thunar-media-tags-plugin thunar-volman tumbler gvfs ark 7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swww flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git zen-browser-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-fork-git resources xorg-xwayland xorg dunst xwaylandvideobridge vscodium-bin-marketplace vscodium-bin bitwarden ttf-ubuntu-mono-nerd ttf-ubuntu-nerd ttf-hack-nerd waybar hyprland wofi xdg-desktop-portal-hyprland
 
 ```
 
