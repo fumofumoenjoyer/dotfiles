@@ -14,7 +14,6 @@ makepkg -si
 
 Optional (Not for Artix): [Install the CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
 
-Optional (For Hyprland config): [Install HyDE](https://github.com/Hyde-project/hyde)
 
 
 Install my stuff
